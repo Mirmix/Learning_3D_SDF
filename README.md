@@ -4,15 +4,13 @@ by Nail Ibrahimli
 
 # Hyperparameters
 
-Creating SDF data width of W, height of H and radius of R
-
+Some parameters may need to be tuned
 
 
 ```python
 W = 64  #width
 H = 64  #height
 D = 64  #depth
-R = 16  #radius
 iso_val = 0.0 #surface level
 space_sampling = 0.01 # SDF sampling
 number_of_points = 1000000 #SDF num points
